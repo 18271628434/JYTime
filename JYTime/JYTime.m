@@ -33,7 +33,7 @@
 /** 定时器 */
 @property (nonatomic,weak) NSTimer *timer;
 
-/** 储存多个计时器数据源 */
+/** 储存多个计时器数据源*/
 @property (nonatomic, strong) NSMutableDictionary<NSString *, JYTimeItemModel *> *timerData;
 
 
